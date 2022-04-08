@@ -1,28 +1,12 @@
 #include <stdio.h>
 #include <time.h>
 
-
-int main()
+void selectionSort(FILE *fptr, int sat)
 {
-
-    // data type for calculating time
-    clock_t starttime, endtime;
-
-    // variable for calculating total time of execution
-    double totaltime;
     int i = 0, j, n = 0, min, index;
 
     // declaring array to store data from file
     int arr[100000];
-
-
-    // declaring file pointer
-    FILE* fptr;
-
-    // opening the integer file.
-    fptr = fopen("input100.txt", "r");
-
-
     // scanning integer from file to array
     while (fscanf(fptr, "%d", &arr[i]) == 1)
     {
@@ -33,17 +17,13 @@ int main()
         // for incrementing the array index
         i++;
     }
-
-    // logic for selection sort....
-    // starts here...
-
-    // calculating clock when sorting starts..
-    starttime = clock();
-    printf("start time : %f\n", (double)starttime);
-    for (i = 0; i < n - 1; i++) {
+    for (i = 0; i < n - 1; i++)
+    {
         min = arr[i];
-        for (j = i + 1; j < n; j++) {
-            if (arr[j] < min) {
+        for (j = i + 1; j < n; j++)
+        {
+            if (arr[j] < min)
+            {
                 min = arr[j];
                 index = j;
             }
@@ -55,26 +35,112 @@ int main()
         arr[i] = min;
         arr[index] = temp;
     }
-    // selection sort logic ends here
-
-    // calculating clock when sorting  ends
-    endtime = clock();
-    printf("%f\n", (double)endtime);
-
-    totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
-
-    // printing the sorted array...
-    FILE *output100=fopen("output100.txt","w");
-
-
-    for (i = 0; i < n; i++){
-        fprintf(output100,"%d ", arr[i]);
+    FILE *out;
+    if (sat == 1)
+    {
+        out = fopen("output_10.txt", "w");
+        for (i = 0; i < n; i++)
+        {
+            fprintf(out, "%d\n", arr[i]);
+        }
     }
 
-    printf("\n\nendtime : %f\n", (float)endtime);
-    printf("\n\ntotal time of execution = %f", totaltime);
+    else if (sat == 2)
+    {
+        out = fopen("output_100.txt", "w");
+        for (i = 0; i < n; i++)
+        {
+            fprintf(out, "%d\n", arr[i]);
+        }
+    }
+    else if (sat == 3)
+    {
+        out = fopen("output_1000.txt", "w");
+        for (i = 0; i < n; i++)
+        {
+            fprintf(out, "%d\n", arr[i]);
+        }
+    }
+    else if (sat == 4)
+    {
+        out = fopen("output_10000.txt", "w");
+        for (i = 0; i < n; i++)
+        {
+            fprintf(out, "%d\n", arr[i]);
+        }
+    }
+    else if (sat == 5)
+    {
+        out = fopen("output_100000.txt", "w");
+        for (i = 0; i < n; i++)
+        {
+            fprintf(out, "%d\n", arr[i]);
+        }
+    }
+    fclose(out);
+}
 
-    fclose(output100);
+int main()
+{
+
+    // data type for calculating time
+    clock_t starttime, endtime;
+
+    // variable for calculating total time of execution
+    double totaltime;
+
+    // declaring file pointer
+    FILE *fptr;
+    FILE *kesimpulan = fopen("kesimpulan.txt", "w");
+
+    // Sorted 10 Data
+    fptr = fopen("input10.txt", "r");
+    starttime = clock();
+    selectionSort(fptr, 1);
+    endtime = clock();
+    totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
+    fprintf(kesimpulan, "1. 10 data diporoleh waktu \t\t:\t %f ms\n", totaltime);
+    fclose(fptr);
+
+    // Sorted 100 Data
+    fptr = fopen("input100.txt", "r");
+    starttime = clock();
+    selectionSort(fptr, 2);
+    endtime = clock();
+    totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
+    fprintf(kesimpulan, "2. 100 data diporoleh waktu \t:\t %f ms\n", totaltime);
+    fclose(fptr);
+
+    // Sorted 1000 Data
+    fptr = fopen("input1000.txt", "r");
+    starttime = clock();
+    selectionSort(fptr, 3);
+    endtime = clock();
+    totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
+    fprintf(kesimpulan, "3. 1000 data diporoleh waktu \t:\t %f ms\n", totaltime);
+    fclose(fptr);
+
+    // Sorted 10000 Data
+    fptr = fopen("input10000.txt", "r");
+    starttime = clock();
+    selectionSort(fptr, 4);
+    endtime = clock();
+    totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
+    fprintf(kesimpulan, "4. 10000 data diporoleh waktu \t:\t %f ms\n", totaltime);
+    fclose(fptr);
+
+    // Sorted 100000 Data
+    fptr = fopen("input100000.txt", "r");
+    starttime = clock();
+    selectionSort(fptr, 5);
+    endtime = clock();
+    totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
+    fprintf(kesimpulan, "5. 100000 data diporoleh waktu \t:\t %f ms\n", totaltime);
+    fclose(fptr);
+
+    fclose(kesimpulan);
+    // printing the sorted array...
+    printf("\nData Berhasil di Sorting: \n");
 
     return 0;
 }
