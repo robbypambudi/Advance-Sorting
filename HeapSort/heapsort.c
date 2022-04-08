@@ -4,7 +4,7 @@
 #define MaxHeapSize 100000
 void siftUp(int[], int);
 
-void heapSort(FILE *in)
+void heapSort(FILE *in, int sat)
 {
     int num[MaxHeapSize + 1];
     int n = 0, number;
@@ -21,9 +21,51 @@ void heapSort(FILE *in)
             exit(1);
         }
     }
-    // for (int h = 1; h <= n; h++)
-    //     printf("%d ", num[h]);
-    // printf("\n");
+    if (sat == 1)
+    {
+        FILE *out = fopen("sorted10.txt", "w");
+        for (int i = 1; i <= n; i++)
+        {
+            fprintf(out, "%d\n", num[i]);
+        }
+        fclose(out);
+    }
+    else if (sat == 2)
+    {
+        FILE *out = fopen("sorted100.txt", "w");
+        for (int i = 1; i <= n; i++)
+        {
+            fprintf(out, "%d\n", num[i]);
+        }
+        fclose(out);
+    }
+    else if (sat == 3)
+    {
+        FILE *out = fopen("sorted1000.txt", "w");
+        for (int i = 1; i <= n; i++)
+        {
+            fprintf(out, "%d\n", num[i]);
+        }
+        fclose(out);
+    }
+    else if (sat == 4)
+    {
+        FILE *out = fopen("sorted10000.txt", "w");
+        for (int i = 1; i <= n; i++)
+        {
+            fprintf(out, "%d\n", num[i]);
+        }
+        fclose(out);
+    }
+    else if (sat == 5)
+    {
+        FILE *out = fopen("sorted100000.txt", "w");
+        for (int i = 1; i <= n; i++)
+        {
+            fprintf(out, "%d\n", num[i]);
+        }
+        fclose(out);
+    }
 }
 
 int main()
@@ -35,7 +77,7 @@ int main()
     clock_t start = clock();
     // Untuk Input 10 Number
     fp = fopen("input10.txt", "r");
-    heapSort(fp);
+    heapSort(fp, 1);
     fclose(fp);
     // Time end
     clock_t end = clock();
@@ -47,7 +89,7 @@ int main()
     start = clock();
     // Untuk Input 100 Number
     fp = fopen("input100.txt", "r");
-    heapSort(fp);
+    heapSort(fp, 2);
     fclose(fp);
     // Time end
     end = clock();
@@ -59,7 +101,7 @@ int main()
     start = clock();
     // Untuk Input 1000 Number
     fp = fopen("input1000.txt", "r");
-    heapSort(fp);
+    heapSort(fp, 3);
     fclose(fp);
     // Time end
     end = clock();
@@ -71,7 +113,7 @@ int main()
     start = clock();
     // Untuk Input 10000 Number
     fp = fopen("input10000.txt", "r");
-    heapSort(fp);
+    heapSort(fp, 4);
     fclose(fp);
     // Time end
     end = clock();
@@ -83,7 +125,7 @@ int main()
     start = clock();
     // Untuk Input 100000 Number
     fp = fopen("input100000.txt", "r");
-    heapSort(fp);
+    heapSort(fp, 5);
     fclose(fp);
     // Time end
     end = clock();
