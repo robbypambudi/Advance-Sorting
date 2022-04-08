@@ -1,0 +1,10 @@
+10 Data memakan waktu : 0.000005 ms
+100 Data memakan waktu : 0.000016 ms
+1000 Data memakan waktu : 0.000222 ms
+10000 Data memakan waktu : 0.002601 ms
+100000 Data memakan waktu : 0.037903 ms
+10 Data memakan waktu : 0.000004
+100 Data memakan waktu : 0.000014
+1000 Data memakan waktu : 0.000179
+10000 Data memakan waktu : 0.002492
+100000 Data memakan waktu : 0.032101
