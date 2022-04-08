@@ -2,11 +2,19 @@
 
 ## Heap Sort
 
-1.	10 data diporeleh waktu 	:	 0.000279 ms
-2.	100 data diporeleh waktu 	:	 0.000336 ms
-3.	1000 data diporeleh waktu 	:	 0.000583 ms
-4.	10000 data diporeleh waktu 	:	 0.003654 ms
-5.	100000 data diporeleh waktu :	 0.037337 ms
+1.	10 Data memakan waktu : 0.000005 ms
+2. 100 Data memakan waktu : 0.000016 ms
+3. 1000 Data memakan waktu : 0.000222 ms
+4. 10000 Data memakan waktu : 0.002601 ms
+5. 100000 Data memakan waktu : 0.037903 ms
+
+## Quick Sort
+
+1. 10 Data memakan waktu : 0.000004 ms
+2. 100 Data memakan waktu : 0.000014 ms
+3. 1000 Data memakan waktu : 0.000138 ms
+4. 10000 Data memakan waktu : 0.001685 ms
+5. 100000 Data memakan waktu : 0.019620 ms
 
 
 ## SelectionSort
@@ -16,3 +24,11 @@
 3. 1000 data diporoleh waktu 	:	 0.001511 ms
 4. 10000 data diporoleh waktu 	:	 0.106064 ms
 5. 100000 data diporoleh waktu  :	 10.438864 ms
+
+## InsertionSort
+1. 10 Data memakan waktu selama : 0.000003 ms
+2. 100 Data memakan waktu selama : 0.000017 ms
+3. 1000 Data memakan waktu selama : 0.000779 ms
+4. 10000 Data memakan waktu selama : 0.086115 ms
+5. 100000 Data memakan waktu selama : 8.287022 ms
+
