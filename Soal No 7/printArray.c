@@ -7,3 +7,4 @@ void printArray(int array[], int size) {
   }
   printf("\n");
 }
+//hu
