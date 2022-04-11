@@ -22,22 +22,8 @@ Penyelesaain :
 */
 #include "header.h"
 
-void scanNumber(int arr[], int *a)
+int main()
 {
-    int i, n;
-    printf("Masukkan jumlah elemen : ");
-    scanf("%d", &n);
-    if (n == 0)
-    { // Fungsi untuk mencetak pesan jika tidak ada ruang untuk menyimpan v.
-        puts("Tidak ada elemen");
-    }
-    else
-    {
-        for (i = 0; i < n; i++)
-        { // Fungsi untuk menambahkan nilai v ke heap.
-            printf("Masukkan elemen ke-%d : ", i + 1);
-            scanf("%d", &arr[i]);
-        }
-    }
-    *a = n;
+    int arr[10000], n;
+    scanNumber(arr, &n);
 }
