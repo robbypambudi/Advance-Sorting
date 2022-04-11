@@ -1,0 +1,20 @@
+/*
+    Nama Kelompok :
+    1. Robby Ulung Pambudi
+    2. M. Armand Giovari
+    3. Fathin Muhashibi Putra
+*/
+
+/* Deskripsi
+    Algoritma pengurutan dikatakan stabil jika kunci yang sama mempertahankan 
+    urutan relatif aslinya setelah pengurutan. Manakah dari metode penyortiran yang dibahas yang stabil?
+*/
+
+Algoritma Penyortiran stabil secara alami seperti Insertion Sort, Merge Sort dan Bubble Sort.
+-   Bubble sort, insertion sort termasuk algoritma penyortiran stabil karena termasuk algoritma
+    pengurutan di tempat. Yang hanya memerlukan pertukaran elemen dalam array input.
+-   Bubble sort and insertion sort dapat diterapkan sebagai algoritma yang stabil tetapi selection sort tidak.
+-   Merge sort adalah algoritma yang stabil tetapi bukan algoritma di tempat tetapi membutuhkan penyimpanan 
+    array ekstra.
+-   Quicksort tidak stabil tetapi merupakan algoritma di tempat.
+-   Heap sort adalah algoritma di tempat tetapi tidak stabil.
