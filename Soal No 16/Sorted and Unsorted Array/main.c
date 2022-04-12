@@ -17,7 +17,7 @@ int search(int arr[], int n, int min, int x)
 void deleted(int arr[], int n, int num)
 {
     int i;
-    for (i = num; i < n; i++)
+    for (i = num - 1; i < n; i++)
     {
         arr[i] = arr[i + 1];
     }
@@ -61,6 +61,10 @@ int main()
     int hasil = search(arr, n, 10000, x);
     deleted(arr, n, hasil);
     end = clock();
+    for (int i = 0; i < n; i++)
+    {
+        fprintf(out, "%d ", arr[i]);
+    }
     fprintf(out, "Waktu yang dibutuhkan untuk mencari dan deleted nilai %d adalah %f detik", hasil, (double)(end - start) / CLOCKS_PER_SEC);
     printf("program Selesai \n");
 }
