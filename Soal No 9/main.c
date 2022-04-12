@@ -1,3 +1,16 @@
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
+*/
+
+/*
+Deskripsi :
+Tulislah fungsi rekursif untuk mencari bilangan terkecil ke-k dalam array n bilangan,
+tanpa mengurutkan array.
+*/
+
 #include <stdio.h>
 
 // Write a recursive function for finding the kth smallest number in an array of n numbers, without sorting the array.
