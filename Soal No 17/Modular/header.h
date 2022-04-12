@@ -11,9 +11,6 @@ Anda diberi daftar (panjang) kata-kata bahasa Inggris. Buatlah program untuk men
 kata-kata adalah anagram satu sama lain. Output terdiri dari setiap kelompok anagram (dua atau lebih
 kata) diikuti oleh baris kosong. Dua kata adalah anagram jika terdiri dari huruf yang sama,
 seperti (teacher, cheater) dan (sister, resist)
-
-Penyelesaian :
-
 */
 
 
