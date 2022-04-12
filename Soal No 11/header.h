@@ -1,14 +1,16 @@
 /*
-	Kelompok   : 11
-	Kelas      : Struktur Data E
+	Kelompok   : 9
+	Kelas      : Struktur Data F
 
 	-----------Anggota 1-----------
-	Nama       : Thariq Afif Habibi
-	NRP        : 502521154
+	Nama       : Robby Ulung Pambudi
 
 	-----------Anggota 2-----------
-	Nama       : M Naufal Badruttamam
-	NRP        : 5025211240
+	Nama       : M Armand Giovani
+
+	-----------Anggota 3-----------
+	Nama		: Fathin Muhashibi Putra
+
 
 	Pengerjaan : 11 April 2022
 */
