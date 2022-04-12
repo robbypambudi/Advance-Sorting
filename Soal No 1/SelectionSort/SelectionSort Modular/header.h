@@ -1,7 +1,15 @@
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
+*/
 
-//Deskripsi
+/*
+Deskripsi :
+Mengitung waktu menggunakan selection sort
+*/
 
-//Penyelesaian
 
 #include <stdio.h>
 #include <time.h>
