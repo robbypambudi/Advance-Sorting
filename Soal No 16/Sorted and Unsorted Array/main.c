@@ -43,7 +43,7 @@ int main()
     }
     else
     {
-        puts("Masukkan An Sorted Array");
+        puts("Masukkan Data Array");
         for (int i = 0; i < n; i++)
         { // Fungsi untuk menambahkan nilai v ke heap.
             printf("Masukkan elemen ke-%d : ", i + 1);
