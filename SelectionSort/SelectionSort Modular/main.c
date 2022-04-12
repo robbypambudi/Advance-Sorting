@@ -19,7 +19,7 @@ int main()
     selectionSort(fptr, 1);
     endtime = clock();
     totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
-    fprintf(kesimpulan, "1. 10 data memakan waktu selama \t\t:\t %f ms\n", totaltime);
+    fprintf(kesimpulan, "1. 10 Data memakan waktu selama \t\t:\t %f ms\n", totaltime);
     fclose(fptr);
 
     // Mengurutkan 100 Data
@@ -28,7 +28,7 @@ int main()
     selectionSort(fptr, 2);
     endtime = clock();
     totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
-    fprintf(kesimpulan, "2. 100 data memakan waktu selama \t:\t %f ms\n", totaltime);
+    fprintf(kesimpulan, "2. 100 Data memakan waktu selama \t:\t %f ms\n", totaltime);
     fclose(fptr);
 
     // Mengurutkan 1000 Data
@@ -37,7 +37,7 @@ int main()
     selectionSort(fptr, 3);
     endtime = clock();
     totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
-    fprintf(kesimpulan, "3. 1000 data memakan waktu selama \t:\t %f ms\n", totaltime);
+    fprintf(kesimpulan, "3. 1000 Data memakan waktu selama \t:\t %f ms\n", totaltime);
     fclose(fptr);
 
     // Mengurutkan 10000 Data
@@ -46,7 +46,7 @@ int main()
     selectionSort(fptr, 4);
     endtime = clock();
     totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
-    fprintf(kesimpulan, "4. 10000 data memakan waktu selama \t:\t %f ms\n", totaltime);
+    fprintf(kesimpulan, "4. 10000 Data memakan waktu selama \t:\t %f ms\n", totaltime);
     fclose(fptr);
 
     // Mengurutkan 100000 Data
@@ -55,7 +55,7 @@ int main()
     selectionSort(fptr, 5);
     endtime = clock();
     totaltime = ((double)(endtime - starttime)) / CLOCKS_PER_SEC;
-    fprintf(kesimpulan, "5. 100000 data memakan waktu selama \t:\t %f ms\n", totaltime);
+    fprintf(kesimpulan, "5. 100000 Data memakan waktu selama \t:\t %f ms\n", totaltime);
     fclose(fptr);
 
     fclose(kesimpulan);

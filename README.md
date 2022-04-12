@@ -19,11 +19,11 @@
 
 ## SelectionSort
 
-1. 10 data diporoleh waktu 	    :	 0.000269 ms
-2. 100 data diporoleh waktu 	:	 0.000168 ms
-3. 1000 data diporoleh waktu 	:	 0.001511 ms
-4. 10000 data diporoleh waktu 	:	 0.106064 ms
-5. 100000 data diporoleh waktu  :	 10.438864 ms
+1. 10 Data memakan waktu : 0.000269 ms
+2. 100 Data memakan waktu :	0.000168 ms
+3. 1000 Data memakan waktu : 0.001511 ms
+4. 10000 Data memakan waktu : 0.106064 ms
+5. 100000 Data memakan waktu : 10.438864 ms
 
 ## InsertionSort
 1. 10 Data memakan waktu selama : 0.000003 ms

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "header.h"
 
 void makeheap(int arr[], int n, int i)
 {
@@ -8,11 +8,11 @@ void makeheap(int arr[], int n, int i)
     int right = 2 * i + 2;
 
     // Jika anak kiri lebih besar dari anak kanan
-    if (left > n && arr[left] < arr[largest])
+    if (left < n && arr[left] > arr[largest])
         largest = left;
 
     // Jika anak kanan lebih besar dari anak kiri
-    if (right > n && arr[right] < arr[largest])
+    if (right < n && arr[right] > arr[largest])
         largest = right;
 
     if (largest != i)
