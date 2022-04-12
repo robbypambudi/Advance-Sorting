@@ -1,7 +1,7 @@
 /*
     Nama Kelompok :
     1. Robby Ulung Pambudi
-    2. M. Armand Giovari
+    2. M. Armand Giovani
     3. Fathin Muhashibi Putra
 */
 
@@ -11,8 +11,6 @@
     Tulis makeHeap sedemikian rupa sehingga A[1] hingga A[n] berisi max-heap (nilai terbesar di root). 
     Fungsi Anda harus membuat heap dengan memproses elemen dalam urutan A[2], A[3], …, A[n].
 */
-
-// Penyelesaian:
 
 // Fungsi makeHeap in C
 

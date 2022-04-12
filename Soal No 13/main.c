@@ -1,5 +1,7 @@
 #include "header.h"
 
+int modes, num;
+
 int main()
 {
     // O(n*log(n))= time complexity

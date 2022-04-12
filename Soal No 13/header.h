@@ -12,13 +12,11 @@
     dan (v) modus (nilai yang paling sering muncul).
 */
 
-// Penyelesaian:
-
 // Fungsi makeHeap in C
 
 #include <stdio.h>
 
-int modes, num;
+extern int modes, num; 
 
 void split(int a[], int mid, int l, int r, int *ll, int *rr);
 int median(int arr[], int l, int r);
