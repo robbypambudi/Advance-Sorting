@@ -1,24 +1,24 @@
 /*
-	Kelompok   : 9
-	Kelas      : Struktur Data F
-
-	-----------Anggota 1-----------
-	Nama       : Robby Ulung Pambudi
-
-	-----------Anggota 2-----------
-	Nama       : M Armand Giovani
-
-	-----------Anggota 3-----------
-	Nama		: Fathin Muhashibi Putra
-
-
-	Pengerjaan : 11 April 2022
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
 */
-#include <stdio.h>
 
 /*
-	Funtion ini melakukan sorting dengan konsep heapSort
+Deskripsi :
+Integer max-heap disimpan dalam array (A, katakanlah) sedemikian rupa sehingga ukuran tumpukan (n, katakanlah) disimpan
+di A[0] dan A[1] hingga A[n] berisi elemen heap dengan nilai terbesar di A[1].
+Tulis sebuah fungsi deleteMax yang, jika diberikan array seperti A, menghapus elemen terbesar dan
+mengatur ulang array sehingga tetap menjadi tumpukan.
+Diberikan dua array, A dan B, yang berisi tumpukan seperti yang dijelaskan sebelumnya, tulis kode pemrograman ke
+gabungkan elemen A dan B ke dalam larik lain, C, sehingga C dalam urutan menaik. Milikmu
+metode harus dilanjutkan dengan comp
 */
+
+#include <stdio.h>
+
+//	Funtion ini melakukan sorting dengan konsep heapSort
 void makeHeap(int num[], int heap[], int n);
 void heapSort(int num[], int n);
 // Function to build a heap
