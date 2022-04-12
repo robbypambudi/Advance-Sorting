@@ -1,3 +1,16 @@
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovani
+3. Fathin Muhashibi Putra
+*/
+
+/*
+Deskripsi :
+Mencari dan menghapus nilai yang telah ditentukan sesuai algoritma Sorted dan Unsorted Array
+
+*/
+
 #include <stdio.h>
 #include <time.h>
 

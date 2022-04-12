@@ -1,14 +1,15 @@
-/**
- * Implementasi ADT SInglyList (Singly Linked List)
- *
- * Dibuat dan ditulis oleh Bayu Laksana
- * -- tanggal 22 Januari 2019
- * Struktur Data 2020
- * Implementasi untuk bahasa C
- *
- * !!NOTE!!
- * cara menggunakan lihat pada fungsi main()
- */
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovani
+3. Fathin Muhashibi Putra
+*/
+
+/*
+Deskripsi :
+Mencari dan menghapus nilai yang telah ditentukan sesuai algoritma Sorted Linked List
+
+*/
 
 #include <stdlib.h>
 #include <stdbool.h>
