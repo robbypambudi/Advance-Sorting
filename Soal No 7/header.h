@@ -10,9 +10,6 @@ Deskripsi :
 Tulis sebuah fungsi yang, jika diberikan bilangan bulat array dan bilangan bulat n, mengurutkan elemen num[1]
 ke num[n] menggunakan Shell sort. Fungsi harus mengembalikan jumlah perbandingan kunci yang dibuat di
 melakukan pengurutan. Anda dapat menggunakan metode apa pun yang masuk akal untuk menentukan kenaikan.
-
-Penyelesaian :
-
 */
 
 #include <stdio.h>

@@ -1,3 +1,16 @@
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
+*/
+
+/*
+Deskripsi :
+Tulis insertion sort menggunakan pencarian biner untuk menentukan posisi di mana A[j] akan berada
+disisipkan di antara sublist A[1..j-1] yang diurutkan.
+*/
+
 #include <stdio.h>
 
 // iterative implementation
