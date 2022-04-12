@@ -1,9 +1,17 @@
-// Deskripsi
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
+*/
 
-// Penyelesaian:
+/*
+Deskripsi :
+Mengitung waktu menggunakan insertion sort.
+*/
+
 
 // Insertion Sort in C
-
 
 #include <math.h>
 #include <stdio.h>

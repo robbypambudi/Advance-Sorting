@@ -1,6 +1,14 @@
-// Deskripsi
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
+*/
 
-// Penyelesaian:
+/*
+Deskripsi :
+Mengitung waktu menggunakan heap sort
+*/
 
 // Heap Sort in C
 
