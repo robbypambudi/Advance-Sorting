@@ -1,3 +1,10 @@
+/*
+    Nama Kelompok :
+    1. Robby Ulung Pambudi
+    2. M. Armand Giovari
+    3. Fathin Muhashibi Putra
+*/
+
 // A C program to print all anagrams together
 #include <stdio.h>
 #include <stdlib.h>
