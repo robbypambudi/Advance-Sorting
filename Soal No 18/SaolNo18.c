@@ -1,3 +1,19 @@
+/*
+Nama Kelompok :
+1. Robby Ulung Pambudi
+2. M. Armand Giovari
+3. Fathin Muhashibi Putra
+*/
+
+/*
+Deskripsi :
+Setiap nilai dalam A[1..n] adalah 1, 2, atau 3. Anda diminta untuk menemukan angka minimal
+pertukaran untuk mengurutkan array. Misalnya, array berikut dapat diurutkan dengan empat
+pertukaran, dalam urutan ini: (1, 3) (4, 7) (2, 9) (5, 9). Solusi lain adalah 
+(1, 3) (2, 9) (4, 7) (5, 9). Array ini tidak dapat diurutkan dengan kurang dari empat pertukaran.
+*/
+
+
 // Quick sort in C
 
 #include <stdio.h>
