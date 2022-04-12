@@ -1,0 +1,1 @@
+Waktu yang dibutuhkan untuk mencari dan deleted nilai 4 adalah 0.000004 detik
