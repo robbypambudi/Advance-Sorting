@@ -12,8 +12,6 @@ pertukaran untuk mengurutkan array.
 Misalnya, array berikut dapat diurutkan dengan empat pertukaran, 
 dalam urutan ini: (1, 3) (4, 7) (2, 9) (5, 9):
 
-Penyelesaian :
-
 */
 
 #include <stdio.h>
